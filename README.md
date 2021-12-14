@@ -34,18 +34,16 @@ The Access Key Id and corresponding Secret Access Key enable remote access for t
 
 ![](.images/avh_cloudformation_main.png)
 
+HTML image
+<img src=".images/avh_cloudformation_main.png">
+
 5. Select _Template is ready_ option, and then _Upload a template file_.
 
 6. With the _Choose file_ button select the `AVH-Cloudformation-Template.yaml` file in your local computer.
 
 7. Click _Next_.
 
-Markdown image
 ![](.images/avh_cloudformation_create_stack.png)
-
-HTML image
-<img src=".images/avh_cloudformation_create_stack.png">
-
 
 8. Specify stack details as follows:
     - _Stack name_: use any name, for example `AVH-Stack`.
