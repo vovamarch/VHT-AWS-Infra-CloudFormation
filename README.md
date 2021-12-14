@@ -40,7 +40,12 @@ The Access Key Id and corresponding Secret Access Key enable remote access for t
 
 7. Click _Next_.
 
+Markdown image
 ![](.images/avh_cloudformation_create_stack.png)
+
+HTML image
+<img src=".images/avh_cloudformation_create_stack.png")
+
 
 8. Specify stack details as follows:
     - _Stack name_: use any name, for example `AVH-Stack`.
