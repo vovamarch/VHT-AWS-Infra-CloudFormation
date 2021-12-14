@@ -32,7 +32,7 @@ The Access Key Id and corresponding Secret Access Key enable remote access for t
 
 4. Click the _Create stack_ button.
 
-![](.images/avh_cloudformation_main.png)
+<img src=".images/avh_cloudformation_main.png">
 
 5. Select _Template is ready_ option, and then _Upload a template file_.
 
@@ -40,14 +40,14 @@ The Access Key Id and corresponding Secret Access Key enable remote access for t
 
 7. Click _Next_.
 
-![](.images/avh_cloudformation_create_stack.png)
+<img src=".images/avh_cloudformation_create_stack.png">
 
 8. Specify stack details as follows:
     - _Stack name_: use any name, for example `AVH-Stack`.
     - _S3BucketName_: shall have only small letters and numbers and be unique across AWS, as otherwise stack creation will fail later.
     - _Vpcid_: provide VPC ID for your target region. This can be found in VPC AWS service.
 
-![](.images/avh_cloudformation_stack_details.png)
+<img src=".images/avh_cloudformation_stack_details.png">
 
 9. On _Configure stack options_ page keep default values and press _Next_.
 
@@ -55,11 +55,11 @@ The Access Key Id and corresponding Secret Access Key enable remote access for t
     - Acknowledge that a new AWS IAM User and AWS IAM AccessKey will be created.
     - Press _Create stack_.
 
-![](.images/avh_cloudformation_ack.png)
+<img src=".images/avh_cloudformation_ack.png">
 
 11. The infrastructure described in the template file will be provisioned. In _Events_ tab you can follow the creation process. Use _refresh_ button if the page does not get updated automatically. After a few minutes the stack creation should be successfully completed.
 
-![](.images/avh_cloudformation_stack_completed.png)
+<img src=".images/avh_cloudformation_stack_completed.png">
 
 13. Go to the created stack and in the _Output_ tab, find the values for the parameters needed for using an AVH AMI:
     - `AVHBucketName`: lists the name of created S3 bucket. It is same as provided in step 8.
@@ -68,6 +68,6 @@ The Access Key Id and corresponding Secret Access Key enable remote access for t
     - `AVHUserAccessKeyId`: 
     - `AVHUserSecretAccessKey`: 
 
-![](.images/avh_cloudformation_output.png)
+<img src=".images/avh_cloudformation_output.png">
 
 Note that when the cloud stack is not needed anymore CloudFormation service can be also used to easily delete the stack including all the provisioned resources.
