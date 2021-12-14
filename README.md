@@ -44,7 +44,7 @@ Markdown image
 ![](.images/avh_cloudformation_create_stack.png)
 
 HTML image
-<img src=".images/avh_cloudformation_create_stack.png")
+<img src=".images/avh_cloudformation_create_stack.png">
 
 
 8. Specify stack details as follows:
